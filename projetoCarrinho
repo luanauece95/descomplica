@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luana's website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="container-fluid p-2 text-center">
+        <nav class="navbar navbar-expand-lg bg-blue">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Luana's Website</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Taxas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Checkout.html"><i class="bi bi-cart2"></i></a > 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h1 style="color: rgb(15, 53, 97);">I did my best</h1>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Imagens/Carousel/in case I don't see ya.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>The Truman Show</h5>
+                  <p>Top 1 in our lives!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Imagens/Carousel/Luxo Jr..jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Luxo</h5>
+                  <p>Where it all began!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Imagens/Carousel/the good place.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>The Good Place</h5>
+                  <p>Where it will end!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+    <section class="container-fluid" id="Pacotes" style="color: white; background-color: rgb(15, 53, 97); p-5">
+        <h2>What he said</h2>
+        <p>Eu sei que não é exatamente o que foi pedido, mas foi o projeto construído enquanto assistia às aulas, imaginava que ele seria o cobrado.
+        </p>
+        <p>
+            Ut convallis aliquam odio id ultricies. Integer sit amet ipsum at purus efficitur interdum in ac enim. 
+            Mauris congue, neque placerat viverra finibus, purus sem fringilla quam, eget vehicula tortor tortor id 
+            erat. Curabitur ipsum turpis, efficitur eu odio eu, tempor maximus leo. Pellentesque non tempus nulla. 
+            Donec laoreet sapien dui, in mollis nisi accumsan ac. Suspendisse malesuada, ante eu pulvinar mollis, 
+            justo eros rutrum mauris, et auctor tortor quam in mi. In at dolor sollicitudin, accumsan ipsum vel, 
+            rhoncus lorem. Ut ut massa nec nunc euismod tincidunt. Vivamus sit amet lacinia nisi, et blandit eros. 
+            Sed congue, mauris vitae luctus ornare, libero tortor rutrum augue, vitae molestie metus metus et libero. 
+            Nunc dictum sagittis magna, sed pellentesque lectus scelerisque nec. Praesent aliquam vestibulum dapibus. 
+            Pellentesque quis elit erat. 
+            <br></br> 
+            <a href="https://www.lipsum.com/feed/html">Saiba mais</a>
+            <hr> <!--Essa tag coloca uma linha separando o conteúdo-->
+        </p>
+        <div class="row">
+            <figure class="col text-center"> <!-- Tá dando alguma merda que a imagem não carrega, não sei qual o problema -->
+                <img src="Imagens/daily-prophet.jpg" alt="Imagem do jornal 'Daily-prophet', do filme Harry Potter, 
+            com Albus Dumbledore na capa." width="200px">
+                <figcaption>Daily-prophet</figcaption>
+            </figure>
+            <figure class="col text-center">
+                <img src="Imagens/ratatouille_3417_1360x768.jpg" alt="a rat" width="400px">
+                <figcaption>Um rato</figcaption>
+            </figure>
+        </div>
+        <div class="row">
+            <video class="col text-center" width="50%" height="300px" controls border>
+                <source src="Site/Videos/Parks.and.Recreation.S01E01.Make.My.Pit.a.Park.1080p.WEB-DL.x265.mkv" type="video/mkv">
+            </video>
+        </div>
+        <hr>
+        <!-- Início da sessão dos botões grandes com pacotes -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="Imagens/Carousel/the good place.jpg" class="card-img-top" alt="Daily-prophet">
+                <div class="card-body">
+                  <h5 class="card-title">The Good Place</h5>
+                  <p class="card-text">Essa é a sua chance de conhecer o céu (ou o inferno)!</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reserve já</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Últimas unidades</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Imagens/ratatouille_3417_1360x768.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paris</h5>
+                  <p class="card-text">Conheça a cidade do amor com o chef mais famoso da França!</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reserve já</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Mais comprados</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Imagens/Carousel/in case I don't see ya.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Burbank</h5>
+                  <p class="card-text">Uma tour completa pela maior cidade cenográfica do mundo, com direito à estadia na casa de Truman.</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reserve já</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Lançamento</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br></br>
+    </section style="p-5">
+    <h2>Datas das viagens:</h2>
+    <table class="container-fluid">
+    <style>
+        caption{
+            color: rgb(247, 247, 79); background-color: rgb(15, 53, 97);
+        }
+        table{
+            background-color: white;
+        }
+    </style>
+        <caption>Datas das viagens de acordo com o destino escolhido:</caption>
+        <thead>
+            <tr>
+                <th>Destino</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nova York</td>
+                <td>Nov e Dez</td>
+            </tr>
+            <tr>
+                <td>Toronto</td>
+                <td>Dez e Jan</td>
+            </tr>
+        </tbody>
+    </table>
+    <br></br>
+    <section class="container-fluid">
+        <h2 class="text-center">Orçamento</h2>
+        <form method="GET" action="">
+            <fieldset>
+                <legend>Dados da viagem:</legend>
+                <label>Nome</label><br>
+                <input type="text" name="Nome"> <br>
+
+                <label>Email*</label><br>
+                <input type="email" required name="Email"><br><br>
+
+                <label>Data de ida</label><br>
+                <input type="date" name="Data_de_ida"><br>
+
+                <label>Data de volta</label><br>
+                <input type="date" name="Data_de_volta"><br>
+
+                <label>Quantidade de pessoas</label><br>
+                <input type="number" name="Quantidade_de_pessoas"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Selecione os serviços:</legend>
+                <input type="checkbox" name="Passagens" value="Passagens"> Compra de passagens <br>
+                <input type="checkbox" name="Hospedagem" value="Hospedagem"> Reserva de hotel <br>
+                <input type="checkbox" name="Veículo" value="Veículos"> Aluguel de veículos <br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Formas de pagamento:</legend>
+                <input type="radio" name="pagamento" value="Crédito"> Cartão de crédito <br>
+                <input type="radio" name="pagamento" value="Débito"> Cartão de Débito <br>
+                <input type="radio" name="pagamento" value="Boleto"> Boleto bancário <br>
+            </fieldset>
+
+            <fieldset> <!-- Caso queira definir qual o botão vai aparecer na caixa (tipo selecione) pode colocar
+            "selected" depois do value na opção que quiser destacar -->
+                <legend>Escolha o prazo para pagamento</legend>
+                <select name="Prazo">
+                    <option value="A_vista">À vista</option>
+                    <option value="Parcelado_5x">Parcelado em 5x (Sem juros)</option>
+                    <option value="Parcelado_10x">Parcelado em 10x (Com juros)</option>
+                </select>
+            </fieldset>
+
+            <label>Observações</label><br>
+            <textarea rows="4" name="Observações"></textarea><br><br>
+
+            <label>Senha</label>
+            <input type="password" name="Senha"><br><br>
+
+            <button class="btn btn-light" type="button">Enviar</button>
+        </form>
+    </section>
+    <br></br> <!--Essa tag adiciona um espaço (quebra de linha)-->
+    <hr>
+    <br></br> 
+    <footer class="container-fluid text-center">
+        <p>Brought to you by: Luana, the mastercoder (someday)!</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Produto adicionado ao carrinho
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+        <a href="Checkout.html" type="button" class="btn btn-success">Finalizar a compra</a>
+      </div>
+    </div>
+  </div>
+</div>
+</html>
